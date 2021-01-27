@@ -1,0 +1,44 @@
+/*index.css*/
+/*add background picture to page1*/
+#page1{
+    background: url(https://cdn.pixabay.com/photo/2020/09/16/04/11/sunset-5575264_1280.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #fff;
+    text-align: center;
+    font-family: Lobster, serif;
+}
+
+.appby{
+  text-align: center;
+      font-family: Lobster, serif;
+}
+.hacodersh{
+  width: 15%;
+  height: 15%;
+  margin-left: 42%;
+}
+
+/*error message*/
+#error{
+    background-color: #D87777;
+    width: 50%;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+/*read word*/
+#result{
+    font-size: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5% 0;
+}
+
+/* Hide the number input */
+.full-width-slider input {
+    display: none !important;
+}
+.full-width-slider .ui-slider-track {
+    margin-left: 15px;
+}
